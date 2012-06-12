@@ -1,0 +1,13 @@
+program HelloByteCode {
+	x : float; x = 4.5;
+	y : float; y = 4.6;
+	if (x < y && x != y) {
+		write(x);
+	} else {
+		write(y);
+	}
+
+	if (!(x < 3.)) {
+		write(x);
+	}
+}

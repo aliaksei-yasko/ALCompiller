@@ -1,0 +1,12 @@
+program HelloWorld {
+	a : int;
+	write("Input first value: ");
+	read (a);
+	b : int;
+	write("Input second value: ");
+	read (b);
+	c : int;
+	c = a + b;
+	write ("Sum is: ");
+	write (c);
+}

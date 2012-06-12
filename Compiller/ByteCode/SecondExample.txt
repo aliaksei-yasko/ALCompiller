@@ -1,0 +1,46 @@
+global {
+	r : int; k : float;
+}
+
+procedure multiple(x : int, y : int) : int {
+	a : int; b : float; 
+	a = x*y^2;
+	b = convertI2F(a); 
+	return convertF2I(b);
+}			
+		
+program allSyntax {
+	a : int; b : int;
+	a = 3; b = 3;
+	if (a == b ) {
+		a = (6 + 1)*3^3%2 + (1 + b);
+	}
+	c : int; c = 6;
+	y : float; is : boolean;
+	if (a == c & a != b ) {
+		b = 4; y = 3.4e+2;
+		is = true;
+	}
+	write(b); write(y); write (4.55); write (23);
+	while (is) {
+		c : int;
+		c = call multiple(a, b);
+		if (c > 30 | is) {
+			is = false;
+		} else {
+			a = c;
+		}
+	}
+
+	i : int;
+	for ( i = 1; i < 4; i = i + 1) {
+		a = i;
+	}
+	write(a);
+	write("Input b: ");
+	read (b);
+	do {
+		a = b;
+		is = false;
+	} while (is & a != b);
+}

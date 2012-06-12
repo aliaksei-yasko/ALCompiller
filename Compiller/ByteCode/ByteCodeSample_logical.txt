@@ -1,0 +1,20 @@
+program HelloByteCode {
+	write("For and expression: ");
+	write(true & true);
+	write(true & false);
+	write(false & true);
+	write(false & false);
+
+	write("For or expression: ");
+	write(true | true);
+	write(true | false);
+	write(false | true);
+	write(false | false);
+
+	write("For not expression: ");
+	write(!true);
+	write(!false);
+	
+	write("For complex expression: ");
+	write(!true & (!!!false | true | false) & true);
+}

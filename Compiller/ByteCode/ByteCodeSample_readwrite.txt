@@ -1,0 +1,17 @@
+global {
+	a : int;
+	b : float;
+}
+
+program HelloByteCode {
+	read(a);
+	write(a);
+	read(b);
+	write(b);
+	a : int;
+	read(a);
+	write(a);
+	b : float;
+	read(b);
+	write(b);
+}

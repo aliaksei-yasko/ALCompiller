@@ -1,0 +1,13 @@
+global {
+	a : int;
+	b : float;
+}
+
+program HelloByteCode {
+	a = 10;
+	write(a);
+	a : float; a = 4.2;
+	b : int; b = 1;
+	b = (convertF2I(a) + b)*3^2;
+	write(b);	   
+}

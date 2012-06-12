@@ -1,0 +1,12 @@
+program HelloByteCode {
+	x : int;
+	
+	for (x = 0; x < 3; x = x + 1) {
+		if (x < 4) {
+			write(x);
+		} else {
+			write(3);
+		}
+	} 
+
+}

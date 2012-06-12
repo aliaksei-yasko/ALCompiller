@@ -1,0 +1,16 @@
+program HelloByteCode {
+	a : int; a = 3;
+	b : int; b = 4;
+	x : boolean; 
+	x = a < b;
+	write(x);
+	x = a == b;
+	write(x);
+	c : float; c = 4.5;
+	d : float; d = 4.6;
+	x = c < d;
+	write(x);
+	write(c > d);
+	write(c == d);
+	write(c != d);
+}

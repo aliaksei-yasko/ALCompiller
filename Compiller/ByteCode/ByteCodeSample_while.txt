@@ -1,0 +1,8 @@
+program HelloByteCode {
+	a : int;
+	while (a < 10) {
+		write(a);
+		a = a + 1;
+	}
+
+}

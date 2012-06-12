@@ -1,0 +1,67 @@
+global {
+	a : int;
+	b : float;
+}
+
+procedure first (a : int, b : float) : int {
+    c = 4;
+}
+
+procedure second () : float {
+	//wrong
+	return 2;
+}
+
+//wrong
+procedure second ( b : int ) : int{
+    a : int;
+    g : int;
+    g = 2 + 3 * 4 - 2 ^ 2;
+}
+
+program HelloWorld {
+	a : int;
+	if (1 == 1) {
+		a : int;
+		c : float;
+		c = 2.13;
+		b : int;
+                b : int;
+		//right
+		b = (2 + a^2%a*2) + 2;
+		//wrong
+		b = 2*c;
+		//wrong
+		b = 2 + 2.12;
+	}
+	//wrong
+	if (1) {
+
+	}
+
+	i : int;
+	//wrong
+	for ( i = 0; i + 1; i + 1) {}
+	//wrong
+	a = true;
+
+	is : boolean;
+	//wrong
+	is = 2;
+
+	read (a);
+	b : float;
+	read (a);
+	c : int;
+	//wrong
+	write (x);
+
+
+	c = call first(2, b);
+	//wrong
+	c = call first(a, 2);
+
+
+
+	c = call dasd();
+}
